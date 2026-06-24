@@ -1,0 +1,39 @@
+:root {
+  --bg: #ffffff;
+  --bg-light: #f5f5f5;
+  --text: #111111;
+  --text-secondary: #555;
+  --accent: #3137C9;
+  --red: #FF4444;
+  --border: #e0e0e0;
+  --placeholder: #999;
+}
+
+.dark {
+  --bg: #181818;
+  --bg-light: #202020;
+  --text: #D2D2D2;
+  --text-secondary: #828282;
+  --accent: #4A50E7;
+  --red: #FF4444;
+  --border: #3A3A3A;
+  --placeholder: #828282;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.todoapp {
+  max-width: 600px;
+  margin: 40px auto;
+  background: var(--bg-light);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}

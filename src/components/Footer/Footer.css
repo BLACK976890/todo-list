@@ -1,0 +1,38 @@
+.footer {
+  background-color: var(--bg-light);
+  border-top: 1px solid var(--border);
+  padding: 12px 16px;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+  color: var(--text-secondary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-count {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.todo-count strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.clear-completed {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s, background-color 0.2s;
+}
+
+.clear-completed:hover {
+  border-color: #ff003f;
+  color: #ff003f;
+  background-color: rgba(255, 0, 63, 0.1);
+}

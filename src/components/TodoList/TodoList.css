@@ -1,0 +1,26 @@
+.main {
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0 16px;
+}
+
+.toggle-all {
+  accent-color: var(--accent);
+}
+
+.main label[for='toggle-all'] {
+  color: var(--text-secondary);
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.todo-list {
+  background-color: var(--bg-light);
+  border-radius: 0 0 8px 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

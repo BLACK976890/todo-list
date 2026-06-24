@@ -1,6 +1,7 @@
 import type { Dispatch } from 'react';
 import type { State, Action } from '../../types/todo';
 import { TodoItem } from '../TodoItem/TodoItem';
+import './TodoList.css';
 
 type TodoListProps = {
   state: State;
